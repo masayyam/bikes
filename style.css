@@ -4,3 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
+.fa-light{
+  border: 2px solid red;
+}
