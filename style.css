@@ -152,6 +152,21 @@ body{
   color: #33753A;
   background-color: #fddde8;
 }
+#feature .fe-box:nth-child(2) h6{
+  background-color: #daca2d;
+}
+#feature .fe-box:nth-child(3) h6{
+  background-color: #cce7d0;
+}
+#feature .fe-box:nth-child(4) h6{
+  background-color: #faede8;
+}
+#feature .fe-box:nth-child(5) h6{
+  background-color: #acd7d0;
+}
+#feature .fe-box:nth-child(6) h6{
+  background-color: #dce420;
+}
 
 /* Features ends */
 /* Homepage ends */
