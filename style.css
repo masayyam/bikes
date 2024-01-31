@@ -56,6 +56,7 @@ body{
 #navbar li{
   list-style: none;
   padding: 0 20px;
+  position: relative;
 }
 .cart-icon{
   width: 14px;
@@ -66,7 +67,23 @@ body{
   font-size: 16px;
   font-weight: 600;
   color: #fff;
+  transition:0.3s ease;
 }
+#navbar li a:hover,
+#navbar li a.active{
+  color: #33753A;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #33753A;
+  bottom: -4px;
+  left: 20px;
+  position: absolute;
+}
+
 /* Navbar code ends */
 
 /* Header Ends */
