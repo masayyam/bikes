@@ -37,14 +37,17 @@ p{
 body{
   width: 100%;
 }
-/* Header Starts */
+
 #header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: #232323;
+  background-color: #000;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 /* Navbar code starts */
@@ -83,7 +86,41 @@ body{
   left: 20px;
   position: absolute;
 }
-
 /* Navbar code ends */
 
-/* Header Ends */
+/* Homepage starts */
+#hero{
+  background-image: url("img/hero.png");
+  height: 90vh;
+  width: 100%;
+  background-position: top 25% right 0;
+  background-size: cover;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero h4{
+  padding-bottom: 10px;
+  color: #EEEEEE;
+}
+#hero h2{
+  color: #EEEEEE;
+}
+#hero h1{
+  color: #33753A;
+}
+#hero p{
+  color: #EEEEEE;
+}
+#hero button{
+  padding: 10px 20px;
+  border-radius: 20%;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #33753A;
+  cursor: pointer;
+}
+/* Homepage ends */
